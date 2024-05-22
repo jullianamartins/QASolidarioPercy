@@ -16,8 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:percy": "percy exec -- cypress run",
-    "eject": "react-scripts eject",
-    "percy": "percy exec -- npm run test"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
