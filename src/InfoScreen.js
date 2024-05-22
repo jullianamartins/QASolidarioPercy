@@ -6,7 +6,7 @@ const InfoScreen = () => {
     <div className="info-screen">
       <div className="info-content">
         <img src={imagemExemplo} alt="Descrição da Imagem" />
-        <p>Esse é um texto modificado de novo.</p>
+        <p>Esse é um texto modificado de novo =/.</p>
       </div>
     </div>
   );

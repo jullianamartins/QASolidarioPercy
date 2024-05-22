@@ -9,13 +9,13 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^5.3.4",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test:percy": "percy exec -- cypress run",
     "eject": "react-scripts eject",
     "percy": "percy exec -- npm run test"
   },
@@ -39,6 +39,6 @@
   },
   "devDependencies": {
     "@percy/cli": "^1.28.6",
-    "@percy/react": "^0.4.6"
+    "@percy/cypress": "^3.1.2"
   }
 }
