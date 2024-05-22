@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test:percy": "percy exec -- cypress run",
     "eject": "react-scripts eject",
     "percy": "percy exec -- npm run test"
   },
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@percy/cli": "^1.28.6",
-    "@percy/react": "^0.4.6"
+    "@percy/cypress": "^3.1.2",
+    "cypress": "^13.10.0"
   }
 }
