@@ -19,7 +19,7 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
-    - name: Run Percy
+    - name: Run Percy with Cypress
       run: npm run test:percy
       env:
         PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
