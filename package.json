@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test": "cypress run",
     "test:percy": "percy exec -- cypress run",
     "eject": "react-scripts eject"
   },
