@@ -12,5 +12,4 @@ module.exports = defineConfig({
   // ... outras configurações globais
 });
 
-const { defineConfig } = require('cypress');
 
