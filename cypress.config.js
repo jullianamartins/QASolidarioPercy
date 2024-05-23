@@ -6,7 +6,7 @@ module.exports = defineConfig({
     // Suas configurações de teste E2E
     // Por exemplo:
     supportFile: false,
-    baseUrl: 'http://10.50.28.141:3000',
+    baseUrl: 'http://localhost:3000',
     // ... outras configurações
   },
   // ... outras configurações globais
